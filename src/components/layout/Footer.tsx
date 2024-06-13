@@ -20,7 +20,7 @@ const Footer: FC<FooterProps> = ({}) => {
           <p className="text-gray-500 dark:text-neutral-500">
             part of
             <a
-              className="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400"
+              className="font-semibold ml-1 text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400"
               href="#"
             >
               codewithagus.

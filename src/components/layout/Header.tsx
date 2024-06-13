@@ -2,6 +2,7 @@
 import useScroll from "@/hooks/useScroll";
 import { cn } from "@/lib/utils";
 import { FC, useState } from "react";
+import { Button } from "../ui/button";
 
 interface HeaderProps {}
 
@@ -26,12 +27,7 @@ const Header: FC<HeaderProps> = ({}) => {
           </div>
 
           <div className="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
-            <button
-              type="button"
-              className="py-2 text-white px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-primary/65  hover:bg-primary/85 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-primary/85"
-            >
-              Hire Us
-            </button>
+            <Button>Hire us</Button>
 
             <div className="md:hidden">
               <button
