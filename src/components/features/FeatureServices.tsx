@@ -17,6 +17,7 @@ interface FeatureServicesProps {}
 const FeatureServices: FC<FeatureServicesProps> = ({}) => {
   const data = {
     title: "Transforming UI Designs & Integrating Data",
+    label: "Our services",
     description:
       "At Nakilabs, we excel in slicing UI designs and seamlessly integrating data for frontend development. With our expertise, we create responsive web solutions that elevate user experiences.",
   };
@@ -67,7 +68,11 @@ const FeatureServices: FC<FeatureServicesProps> = ({}) => {
   return (
     <div>
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <SectionTitle title={data.title} description={data.description} />
+        <SectionTitle
+          title={data.title}
+          label={data?.label}
+          description={data.description}
+        />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <div

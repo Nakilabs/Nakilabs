@@ -55,6 +55,7 @@ const FeatureWhyUs: FC<FeatureWhyUsProps> = ({}) => {
             <div className="space-y-6 sm:space-y-8">
               <SectionTitle
                 title={data?.title}
+                label="our benefits"
                 description={data?.description}
               />
 

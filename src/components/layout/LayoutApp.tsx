@@ -9,7 +9,7 @@ interface LayoutAppProps {
 const LayoutApp: FC<LayoutAppProps> = ({ children }) => {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       {children}
       <Footer />
     </div>
