@@ -28,7 +28,7 @@ const Header: FC<HeaderProps> = ({}) => {
           <div className="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
             <button
               type="button"
-              className="py-2 text-white px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-primary/65 text-black hover:bg-primary/85 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-primary/85"
+              className="py-2 text-white px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent bg-primary/65  hover:bg-primary/85 transition disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-primary/85"
             >
               Hire Us
             </button>
